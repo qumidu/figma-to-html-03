@@ -233,6 +233,7 @@ a {
 }
 
 .service-item__icon {
+  color: #10375C;
   width: 60px;
   height: 60px;
   border-radius: 50%;
