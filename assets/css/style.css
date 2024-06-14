@@ -450,3 +450,45 @@ a {
   margin-top: 38px;
   justify-content: center;
 }
+
+/* =================== install =================== */
+.install {
+  padding: 180px 0 85px;
+}
+
+.install__inner {
+  padding: 75px 70px;
+  border-radius: 4px;
+  background: #2e80ce;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.install__img {
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading {
+  color: #fff;
+  max-width: 489px;
+}
+
+.install__desc {
+  color: #fff;
+}
+
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  column-gap: 28px;
+}
