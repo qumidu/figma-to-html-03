@@ -496,13 +496,13 @@ a {
 /* =================== blog =================== */
 .blog {
   padding: 85px 0;
-  background: aqua;
+  background: #fff;
 }
 
 .blog__inner {
   display: flex;
   justify-content: space-between;
-  align-items: #fff;
+  align-items: center;
 }
 
 .blog__content {
