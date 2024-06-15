@@ -506,11 +506,11 @@ a {
 }
 
 .blog__content {
-  width: 44%;
+  width: 40%;
 }
 
 .blog__heading {
-  width: 470px;
+  width: 100%;
 }
 
 .blog__read-all {
