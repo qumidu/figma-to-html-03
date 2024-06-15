@@ -594,3 +594,34 @@ a {
 .blog-item__more:hover {
   color: #2e80ce;
 }
+
+/* =================== blog =================== */
+.appt {
+  margin: 85px 0;
+}
+
+.appt__inner {
+  padding: 100px 178px;
+  background: #f6fbff;
+  text-align: center;
+}
+
+.appt__heading::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 0;
+}
+
+.appt__desc {
+  margin: 18px auto 0;
+  max-width: 617px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.appt__btn {
+  margin-top: 38px;
+}
