@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>shine smile</title>
 </head>
 
@@ -42,7 +44,7 @@
         <div class="container">
             <div class="header-top">
                 <!-- logo -->
-                <a href="./index.html"><img src="./assets/img/logo.svg" alt="shine smile" class="logo"></a>
+                <a href="./index.html"><img src="./assets/img/logo.svg" alt="shine smile" class="logo header__logo"></a>
                 <!-- nav -->
                 <nav class="navbar">
                     <ul class="navbar__list">
@@ -91,6 +93,21 @@
             </section>
         </div>
     </header>
+
+    <!-- Tablet/mobile header -->
+    <div class="mobile-header">
+        <!-- tablet/mobile menu -->
+        <input type="checkbox" name="menu-checkbox" id="menu-checkbox" class="menu-checkbox" hidden>
+        <label for="menu-checkbox">
+            <svg class="menu-header__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+        </label>
+
+        <!-- overlay -->
+         <label for="menu-checkbox" class="menu-overlay"></label>
+    </div>
 
     <!-- main -->
     <main>
@@ -509,9 +526,9 @@
             </div>
 
             <!-- copyright -->
-             <div class="footer__copyright">
+            <div class="footer__copyright">
                 <p class="footer__copyright-text">2021 GDN. Copyright and All rights reserved.</p>
-             </div>
+            </div>
         </div>
     </section>
 </body>
