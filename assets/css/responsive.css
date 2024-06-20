@@ -137,6 +137,35 @@
     width: 90%;
     text-align: start;
   }
+
+  /* work list */
+  .work__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  /* about */
+  .about-row {
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+  }
+
+  /* ẩn ảnh big */
+  .about__img--big {
+    display: none;
+  }
+
+  .about__img--small {
+    width: 100%;
+    border-radius: 15px;
+    margin: 25px auto;
+  }
+
+  .about-content {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 /* Tablet */
